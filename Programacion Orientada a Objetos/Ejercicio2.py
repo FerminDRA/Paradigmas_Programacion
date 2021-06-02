@@ -1,0 +1,25 @@
+a=[0,1,2,3,4]
+
+print(a)
+a.append(5)
+print(a)
+a.pop()
+print(a)
+a.insert(0,5.5)
+print(a)
+a.pop(0)
+print(a)
+a.reverse()
+print(a)
+a.sort()
+print(a)
+print(a.count(4))
+print(len(a))
+print(a[2])
+print(a[0:2])
+print(5 in a)
+
+n=a
+n.append(9)
+print(n)
+print(a)
